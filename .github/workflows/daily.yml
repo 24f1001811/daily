@@ -12,7 +12,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Add dummy commit with xxx@example.com
+      - name: Add dummy commit with 24f1001811@ds.study.iitm.ac.in
         run: |
           echo "Daily ping at $(date)" >> daily-log.txt
           git config user.name "github-actions[bot]"
