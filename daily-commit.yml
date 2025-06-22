@@ -16,7 +16,7 @@ jobs:
         run: |
           echo "Daily ping at $(date)" >> daily-log.txt
           git config user.name "github-actions[bot]"
-          git config user.email "xxx@example.com"
+          git config user.email "24f1001811@ds.study.iitm.ac.in"
           git add daily-log.txt
           git commit -m "Daily commit at $(date)"
           git push
